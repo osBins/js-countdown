@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+img {
+  max-height: 50vh;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 3rem;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+}
+
+.days,.hours,.minutes,.seconds {
+  font-size: 1.5rem;
+}
